@@ -1,0 +1,6 @@
+let = sirve para declarar arreglos
+
+
+let nom = 'Cesar';
+console.log(texto);
+console.log(`Mi nombre es: ${nom}`);
