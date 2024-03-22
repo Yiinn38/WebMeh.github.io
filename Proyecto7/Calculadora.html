@@ -12,15 +12,21 @@
 
 <body>
   <div class="calculadora text-center">
-    <td><input type="text" id="display" disabled placeholder="0" style="font-size: 1.8em;" class="resultados"></td>
+    <td><input type="text" id="display" disabled placeholder="0" style="font-size: 1.8em; " class="resultados"></td>
     <table>
+      <hr style="color: rgb(150, 150, 150);">
       <tr>
+        <td><input type="button" value="C" onclick="clearDisplay('C')" style="color: red;"></td>
+        <td><input type="button" value="√" onclick="calculateSquareRoot()"></td>
+        <td><input type="button" value="x²" onclick="calculateSquare()"></td>
+        <td><input type="button" value="π" onclick="appendToDisplay(3.14)"></td>
+        <td></td>
       </tr>
       <tr>
         <td><input type="button" value="1" onclick="appendToDisplay('1')"></td>
         <td><input type="button" value="2" onclick="appendToDisplay('2')" ></td>
         <td><input type="button" value="3" onclick="appendToDisplay('3')"></td>
-        <td><input type="button" value="/" onclick="appendToDisplay('/')"></td>
+        <td><input type="button" value="÷" onclick="appendToDisplay('/')"></td>
       </tr>
       <tr>
         <td><input type="button" value="4" onclick="appendToDisplay('4')"></td>
@@ -35,17 +41,10 @@
         <td><input type="button" value="+" onclick="appendToDisplay('+')"></td>
       </tr>
       <tr>
+        <td><input type="button" value="x" onclick="appendToDisplay('*')"></td>
         <td><input type="button" value="0" onclick="appendToDisplay('0')"></td>
         <td><input type="button" value="." onclick="appendToDisplay('.')"></td>
-        <td><input type="button" value="x" onclick="appendToDisplay('*')"></td>
-        <td><input type="button" value="C" onclick="clearDisplay()"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="√" onclick="calculateSquareRoot()"></td>
-        <td><input type="button" value="x²" onclick="calculateSquare()"></td>
-        <td><input type="button" value="π" onclick="appendToDisplay(Math.PI)"></td>
         <td><input type="button" value="=" onclick="calculate()"></td>
-        <td></td>
       </tr>
     </table>
   </div>
