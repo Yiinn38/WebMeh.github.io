@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    color: #9e9e9e;
+}
+
+.btn-secondary{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border-color: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-secondary:hover{
+    background-color: #ffffff;
+    color: #f44336;
+    transform: scale(1.3);
+}
