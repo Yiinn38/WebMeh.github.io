@@ -18,13 +18,10 @@ let listaProductos = document.querySelector('#listaProductos');
                                     <div class="card-body">
                                         <h5 class="card-title">${producto.title.slice(0, 10)}</h5>
                                         <p class="card-text">${producto.description.slice(0, 50)}</p>
-                                        <p class="text-danger">$ ${producto.price}</p>
-                                        <a href="#" class="btn btn-primary">Comprar</a>
                                     </div>
                                 </div>
                             </div>
                             `;
-
                     });
                 });
         }

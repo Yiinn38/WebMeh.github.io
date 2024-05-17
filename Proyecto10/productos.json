@@ -1,50 +1,42 @@
 [
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Rayo McQueen",
+        "description": "Rayo McQueen es un coche de carreras novato, que descubre que la vida es una carrera de velocidad",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/og_cars_lightningmcqueenday_18244_4435f27a.jpeg?region=40,0,1120,630&width=960"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Mate",
+        "description": "Mate es un camión de remolque que es el mejor amigo de Rayo McQueen",
+        "image": "../Proyecto8/Mate.webp"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Sally",
+        "description": "Sally es una porsche 911 que es la novia de Rayo McQueen",
+        "image": "img_productos/sally.jpg"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Doc Hudson",
+        "description": "Doc Hudson es un Hudson Hornet que es el mentor de Rayo McQueen",
+        "image": "img_productos/doc_hudson.webp"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Chick Hicks",
+        "description": "Chick Hicks es un coche de carreras que es el rival de Rayo McQueen",
+        "image": "img_productos/Chick_Hicks.webp"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
+        "title": "Strip Weathers",
+        "description": "Strip Weathers es un coche de carreras que es el mentor de Rayo McQueen",
+        "image": "../Proyecto8/El_Rey.webp"
     },
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://i.ytimg.com/vi/ijid9-q2MGc/maxresdefault.jpg"
+        "title": "Ramone",
+        "description": "Ramone es un coche de carreras que es el mejor amigo de Flo",
+        "image": "img_productos/ramone.jpg"
     },
     {
-        "title": "Enanos",
-        "description": "Enanos todo terreno",
-        "price": 0.99,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxr5GPcyEAaTD3rMEYc0TW9c882MTUIaiZNRy7jRl_uA&s"
+        "title": "Luigi",
+        "description": "Luigi es un coche de carreras que es el mejor amigo de Guido",
+        "image": "img_productos/Profile_-_Luigi.webp"
     }
 ]
